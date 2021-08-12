@@ -12,10 +12,8 @@ body{
 
 /*Estilos de la cabecera*/
 header{
-background: #B00D0D;
     display: flex;
     justify-content: space-evenly;
-    /* padding: 5px; */
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -24,8 +22,8 @@ background: #B00D0D;
 /*Estilos para apartado de logo*/
 header .logo img{
 	padding: 0px 5px;
-	width: 5vh;
-	height: 5vh;
+	width: 10vh;
+	height: 10vh;
 }
 
 
@@ -40,20 +38,24 @@ header .lista ul{
 	list-style: none;
 	align-items: center;
 	justify-content: space-around;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	background: black;
+	font-size: 20px;
+	padding: 5px 0px;
 }
 
 header .lista ul li{
-	padding: 5px;
 }
 
 header .lista ul li a {
 	color: #fff;
-	background: #0D46B0;
-	border:1px solid #000;
-	padding:10px;
 	white-space: nowrap;
 	text-decoration:none;
-	border-radius: 10px; 
+	padding: 5px 8px;
+	border-radius: 10px;
 
 }
 
@@ -70,7 +72,7 @@ header .lista ul li a:hover {
 	display: flex; 
 	padding: 5px;
 	width: 95%;
-	height: 86vh;
+	height: 81vh;
 	justify-content: center;
 }
 
@@ -82,13 +84,19 @@ header .lista ul li a:hover {
 	align-items: center;
 	width: 40vh;
 	height: 20vh;
+	background: #9c9c9c;
+}
+
+.contenedor form input{
+	padding: 8px;
+	border: none;
 }
 
 /*footer*/
 footer{
-  background: #fff;
-  margin: auto;
-  padding: 30px;
-  text-align: center;
-  color: #9c9c9c;
+	background: #fff;
+	margin: auto;
+	padding: 30px;
+	text-align: center;
+	color: #9c9c9c;
 }
