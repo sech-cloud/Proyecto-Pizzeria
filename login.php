@@ -7,18 +7,9 @@
 	<title>Login</title>
 </head>
 <body>
-<header>
-	<div class="logo">
-		<img src="img/logo.png">
-	</div>
-	<div class="lista"><ul>
-		<li> <a href="">Productos</a></li>
-		<li><a href="">¿Quienes somos?</a></li>
-		<li><a href="">Contáctanos</a></li>
-		<li><a href="">Registro</a></li>
-		<li><a href="">Inciar Sesion</a></li>
-	</ul></div>
-</header>
+<?php 
+	require_once "header.php";
+?>
 
 <div class="contenedor">
 	<form>
@@ -26,11 +17,11 @@
 		<h4>Ingresa tus datos para poder entrar</h4>
 		<input type="Text" name="usuario" placeholder="Usuario">
 		<input type="password" name="contraseña" placeholder="Contraseña">
+		<button>INGRESAR</button>
 	</form>
 </div>
-<footer>
-	<hr>
-	<h4>Copyright © 2021 GRUPO 7</h4>
-</footer>
+<?php 
+	require_once "footer.php";
+?>
 </body>
 </html>

@@ -12,6 +12,7 @@ body{
 
 /*Estilos de la cabecera*/
 header{
+	background: #fff;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -67,12 +68,12 @@ header .lista ul li a:hover {
 	background:#3F7BEA;
 }
 
-/*Contenedor de formulario*/
+/*Contenedor de Login*/
 .contenedor{
 	display: flex; 
 	padding: 5px;
 	width: 95%;
-	height: 81vh;
+	height: 80vh;
 	justify-content: center;
 }
 
@@ -95,8 +96,17 @@ header .lista ul li a:hover {
 /*footer*/
 footer{
 	background: #fff;
-	margin: auto;
-	padding: 30px;
+	width: 100%;
+	padding: 38px;
 	text-align: center;
 	color: #9c9c9c;
+	display: flex;
+	grid: 3/6;
+}
+
+footer .copy{
+	grid-row: 2/6;
+}
+footer .align{
+	grid-row: 5/6;
 }
