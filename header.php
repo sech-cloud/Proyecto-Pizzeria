@@ -1,12 +1,20 @@
-<header>
-	<div class="logo">
-		<img src="img/logo.png">
+<nav class="nav">
+	<div class="container">
+		<div class="logo">
+			<img src="img/logo.png">
+		</div>
+		<label for="menu" class="nav_label">
+			<i class="fa fa-bars" aria-hidden="true" class="nav_img"></i>
+		</label>
+		<input type="checkbox" id="menu" class="nav_input">
+
+		<div class="lista">
+			<a href="#" class="nav_items">Productos</a>
+			<a href="#" class="nav_items">¿Quienes somos?</a>
+			<a href="#" class="nav_items">Contáctanos</a>
+			<a href="registro.php" class="nav_items">Registro</a>
+			<a href="login.php" class="nav_items">Inciar Sesion</a>
+		</div>
 	</div>
-	<div class="lista"><ul>
-		<li> <a href="">Productos</a></li>
-		<li><a href="">¿Quienes somos?</a></li>
-		<li><a href="">Contáctanos</a></li>
-		<li><a href="registro.php">Registro</a></li>
-		<li><a href="login.php">Inciar Sesion</a></li>
-	</ul></div>
-</header>
+
+</nav>	
